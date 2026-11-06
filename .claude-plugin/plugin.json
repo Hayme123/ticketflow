@@ -4,5 +4,6 @@
   "description": "Plan into phased tickets, work each on its own branch with an automatic review, merge on your word, then hand off to a fresh session.",
   "author": {
     "name": "James Andrew"
-  }
+  },
+  "license": "MIT"
 }

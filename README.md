@@ -228,5 +228,5 @@ other scripts.
 - Confirm the `SessionStart` hook with matcher `clear` injects `tickets/.handoff.md` after `/clear`.
   If not, add a tiny `/resume` command.
 - Confirm the `autoCommitDocs` default.
-- The plugin has no license of its own yet; choose one before publishing. The vendored skill keeps
+- Plugin license: MIT (see LICENSE). The vendored skill keeps
   its own MIT license.
