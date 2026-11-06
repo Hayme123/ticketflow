@@ -1,0 +1,8 @@
+{
+  "baseBranch": "main",
+  "ticketsDir": "tickets",
+  "idFormat": "P{phase}-{nn}",
+  "autoCommitDocs": true,
+  "aiReview": true,
+  "checks": []
+}

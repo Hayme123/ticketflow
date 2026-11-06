@@ -1,0 +1,17 @@
+{
+  "description": "After /clear or a fresh start, load the ticketflow handoff so the new session continues where the last ticket ended.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "clear|startup",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "if [ -f tickets/.handoff.md ]; then echo 'ticketflow handoff from the previous session (tickets/.handoff.md). Trust the repo files over this text; if branch or tree differ, say so.'; cat tickets/.handoff.md; fi",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}
